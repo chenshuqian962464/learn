@@ -1,4 +1,4 @@
-module github.com/chenshuqian962464/learn
+module github.com/chenshuqian962464/learn2
 
 go 1.17
 
@@ -6,6 +6,7 @@ require (
 	github.com/gin-gonic/gin v1.7.7
 	github.com/go-sql-driver/mysql v1.5.0
 	github.com/jmoiron/sqlx v1.3.4
+	gopkg.in/ini.v1 v1.66.2
 )
 
 require (

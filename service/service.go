@@ -1,8 +1,8 @@
 package service
 
 import (
-	"github.com/chenshuqian962464/learn/aaa/dao"
-	"github.com/chenshuqian962464/learn/aaa/model"
+	"github.com/chenshuqian962464/learn2/dao"
+	"github.com/chenshuqian962464/learn2/model"
 	"strconv"
 )
 
@@ -11,7 +11,8 @@ func CreateUser(name, age string) error {
 	if err != nil {
 		return err
 	}
-	user := &model.User{ //ID 不用写 因为数据库设置了自增
+
+	user := &model.User{ //因为ID数据库设置的是自增  所以不用写
 		Firstname: name,
 		Age:       ageInt,
 		High:      180,
